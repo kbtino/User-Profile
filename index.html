@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        <img src="./my_profil.png" alt="logo" width="50" />
+        <h1>Anlovi Mawutowu</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#information">Informations</a></li>
+          <li><a href="#competences">Competences</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main contents of the page -->
+    <main>
+      <section id="profile">
+        <img src="./my_profil.png" alt="My Profile" width="50" />
+        <h2>My Full Name</h2>
+        <p>Web developper | Technologie And Innovation Antousiast.</p>
+      </section>
+      <!-- PERSONNAL INFORMATION SECTION -->
+      <section id="informations">
+        <h2>Personnal Informations</h2>
+        <ul>
+          <li>Age : 25 years old</li>
+          <li>Location : Lome, Togo</li>
+          <li>Email : exemple@gmail.com</li>
+          <li>Constact : +228 90 00 00 01</li>
+        </ul>
+      </section>
+
+      <!-- COMPETENCES SECTION -->
+      <section id="competences">
+        <h2>Competences</h2>
+        <ul>
+          <li>HTML / CSS</li>
+          <li>JavaScript</li>
+          <li>Python / Django</li>
+          <li>Cyber Security</li>
+          <li>Dadabase Management</li>
+        </ul>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section class="projects">
+        <h2>Recent Projects</h2>
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>Queit Description of the project</p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>Quick description of the project</p>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name :</label>
+          <input type="text" id="name" name="required" />
+
+          <label for="email">Email : </label>
+          <input type="text" id="email" name="required" />
+
+          <label for="message">Message :</label>
+          <textarea name="message" id="message" rows="4" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>@ 2025 My Name - All right reserved</p>
+      <p>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Twitter</a>
+      </p>
+    </footer>
+  </body>
+</html>
